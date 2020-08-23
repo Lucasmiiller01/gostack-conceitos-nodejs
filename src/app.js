@@ -21,7 +21,7 @@ app.post("/repositories", (request, response) => {
 
   repositories.push(repository);
 
-  return response.json(repositories)
+  return response.json(repository)
 
 });
 
